@@ -18,7 +18,7 @@ function Work() {
   };
 
   return (
-    <div className={styles.container}>
+    <div id="#work" className={styles.container}>
       <div className={styles.innerContainer}>
         <Carousel
           showIndicators={false}
@@ -28,9 +28,9 @@ function Work() {
           selectedItem={currentSelected}
           onChange={updateCurrentSelected}
         >
-          {workHistory.map((history: Work) => {
+          {workHistory.map((history: Work, i: number) => {
             return (
-              <div>
+              <div key={i}>
                 <div className={`${playfair.className} ${styles.title}`}>
                   {history.title}
                 </div>
