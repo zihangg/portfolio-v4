@@ -5,6 +5,7 @@ type Props = {
   isSelected: boolean;
   onClick: () => void;
 };
+
 function CustomIndicator({ isSelected, onClick }: Props) {
   return (
     <div
