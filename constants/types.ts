@@ -4,3 +4,11 @@ export type Work = {
   description: string;
   duration: string;
 };
+
+export type Project = {
+  projectName: string;
+  lineUrl: string;
+  description: string;
+  tags: string[];
+  github: string;
+};

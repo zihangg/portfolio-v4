@@ -24,9 +24,9 @@ function Hero() {
           with a smidgen of impostor syndrome.
         </div>
         <div className={styles.tags}>
-          <Tag text="front-end" />
-          <Tag text="back-end" />
-          <Tag text="full-stack" />
+          <Tag text="front-end" color={null} />
+          <Tag text="back-end" color={null} />
+          <Tag text="full-stack" color={null} />
         </div>
       </div>
     </div>

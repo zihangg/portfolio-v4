@@ -1,5 +1,6 @@
 .container {
   margin: 1rem;
+  min-height: 100vh;
 }
 
 .innerContainer {

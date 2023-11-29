@@ -1,0 +1,44 @@
+.parentContainer {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: fit-content;
+  padding: 2rem;
+  box-shadow: 8px 10px 20px #888888;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.tags {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
