@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 function Hero() {
   return (
-    <div id="#intro" className={`${styles.container} ${inter.className}`}>
+    <div id="intro" className={`${styles.container} ${inter.className}`}>
       <div className={styles.subcontainer}>
         <div className={styles.title}>
           <div className={styles.titleText}>Building &nbsp;</div>

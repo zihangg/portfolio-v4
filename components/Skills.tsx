@@ -21,7 +21,7 @@ import {
 
 function Skills() {
   return (
-    <div className={styles.container}>
+    <div id="skills" className={styles.container}>
       <SkillBox icon={ts} />
       <SkillBox icon={docker} />
       <SkillBox icon={ec2} />

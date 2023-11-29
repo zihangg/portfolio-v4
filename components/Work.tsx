@@ -18,7 +18,7 @@ function Work() {
   };
 
   return (
-    <div id="#work" className={styles.container}>
+    <div id="work" className={styles.container}>
       <div className={styles.innerContainer}>
         <Carousel
           showIndicators={false}

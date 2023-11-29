@@ -6,7 +6,7 @@ import styles from "../styles/components/projects.module.css";
 
 function Projects() {
   return (
-    <div id="#projects" className={styles.parentContainer}>
+    <div id="projects" className={styles.parentContainer}>
       {projects.map((project: Project, i: number) => {
         return (
           <ProjectBox
