@@ -38,8 +38,7 @@ function Header() {
           Skills
         </Link>
       </div>
-      {/* TODO: change to email*/}
-      <Link href="#contact" onClick={handleScroll} className={styles.navlinks}>
+      <Link href="mailto:zihang.lee@gmail.com" className={styles.navlinks}>
         Contact
       </Link>
     </nav>
